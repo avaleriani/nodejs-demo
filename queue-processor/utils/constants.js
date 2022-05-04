@@ -1,0 +1,10 @@
+module.exports = {
+  CUT_SERVICE: 'https://example.com/?url=',
+  PORT_WEBSOCKET: 3005,
+  PORT_SERVER: 443,
+  BACKBLAZE_URL: 's3.us-west-002.backblazeb2.com',
+  BACKBLAZE_APP_KEY_ID: 'BB_ID',
+  BACKBLAZE_APPLICATION_KEY: 'BB_KEY',
+  BACKBLAZE_BUCKET_ID: 'BB_B_ID',
+  BACKBLAZE_BUCKET_NAME: 'TEST_NAME',
+};

@@ -1,0 +1,22 @@
+{
+  "name": "queue-processor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Agustin Valeriani <agvaleriani@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./app"
+  },
+  "dependencies": {
+    "@gideo-llc/backblaze-b2-upload-any": "^0.1.3",
+    "aws-sdk": "^2.863.0",
+    "backblaze-b2": "^1.6.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "prettier": "^2.2.1",
+    "socket.io": "^4.0.0",
+    "sqs-consumer": "^5.5.0"
+  }
+}
